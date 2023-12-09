@@ -1,0 +1,15 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.header nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header nav a {
+  margin-left: 15px;
+  font-size: 20px;
+  text-decoration: none;
+}/*# sourceMappingURL=navbar.css.map */
