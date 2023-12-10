@@ -1,7 +1,10 @@
 .header {
+  box-sizing: border-box;
   width: 100%;
   display: flex;
   justify-content: space-between;
+  color: white;
+  padding: 10px;
 }
 .header nav {
   display: flex;
@@ -9,6 +12,7 @@
   justify-content: center;
 }
 .header nav a {
+  color: white;
   margin-left: 15px;
   font-size: 20px;
   text-decoration: none;

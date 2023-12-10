@@ -1,12 +1,16 @@
 .header {
+  box-sizing: border-box;
   width: 100%;
   display: flex;
   justify-content: space-between;
+  color: white;
+  padding: 10px;
   nav {
     display: flex;
     align-items: center;
     justify-content: center;
     a {
+      color: white;
       margin-left: 15px;
       font-size: 20px;
       text-decoration: none;
