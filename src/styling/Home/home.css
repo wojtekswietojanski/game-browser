@@ -164,6 +164,10 @@
   animation: slideInFromTop 0.3s ease-out;
   z-index: 1;
 }
+#gamesGallery .hoverInfo .hoverInfoLast {
+  position: absolute;
+  bottom: 0px;
+}
 #gamesGallery .hoverInfo p {
   color: white;
   margin-top: 10px;

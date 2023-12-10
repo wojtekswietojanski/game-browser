@@ -22,7 +22,6 @@ const Home = () => {
   async function createGallery(filter) {
     try {
       var responseContainer = await fetchData(filter);
-      console.log(responseContainer.results);
       setResponseObject(responseContainer);
     } catch (error) {
       console.error("wystąpił błąd przy renderowaniu galerii gier" + error);

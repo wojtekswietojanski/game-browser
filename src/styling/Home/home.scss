@@ -138,6 +138,10 @@
     border-radius: 0 0 25px 25px;
     animation: slideInFromTop 0.3s ease-out;
     z-index: 1;
+    .hoverInfoLast {
+      position: absolute;
+      bottom: 0px;
+    }
     p {
       color: white;
       margin-top: 10px;

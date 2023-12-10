@@ -1,11 +1,11 @@
 import "../styling/Navbar/navbar.css";
-const Navbar = () => {
+const Navbar = ({ changePage }) => {
   return (
     <header className="header">
       <h1>Games Data</h1>
       <nav>
-        <a href="">HOME</a>
-        <a href="">QUIZ</a>
+        <button onClick={() => changePage(0)}>HOME</button>
+        <button onClick={() => changePage(1)}>QUIZ</button>
       </nav>
     </header>
   );
